@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_recruitment_sdd_study_case_3_recruitment_sdd_study_case_3UITests : NSObject
+@end
+@implementation PodsDummy_Pods_recruitment_sdd_study_case_3_recruitment_sdd_study_case_3UITests
+@end
