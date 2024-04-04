@@ -1,5 +1,5 @@
 //
-//  LineChartData.swift
+//  TransPerMonthData.swift
 //  recruitment-sdd_study_case_3
 //
 //  Created by Jonathan Kristian on 04/04/24.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class LineChartData: NSObject {
+final class TransPerMonthData: NSObject {
     var transPerMonth: [Int] = []
     
     init?(dictionary: [String: Any]) {

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="TransDetailTableCell" id="iN0-l3-epB" customClass="TransDetailTableCell" customModule="recruitment_sdd_study_case_3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="208" height="194"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hf7-xN-J3u">
+                    <rect key="frame" x="16" y="4" width="176" height="48"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. 500000000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pqz-Vu-GT2">
+                            <rect key="frame" x="8" y="15" width="148.33333333333334" height="18"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12/11/2024" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlO-qr-qhR">
+                            <rect key="frame" x="113.33333333333336" y="6" width="56.666666666666671" height="13"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Pqz-Vu-GT2" firstAttribute="leading" secondItem="hf7-xN-J3u" secondAttribute="leading" constant="8" id="3Wi-73-0Ie"/>
+                        <constraint firstItem="LlO-qr-qhR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hf7-xN-J3u" secondAttribute="leading" constant="6" id="5mw-vh-3yF"/>
+                        <constraint firstAttribute="height" constant="48" id="JAp-8p-Vic"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Pqz-Vu-GT2" secondAttribute="trailing" constant="8" id="Sr3-4R-v34"/>
+                        <constraint firstItem="Pqz-Vu-GT2" firstAttribute="centerY" secondItem="hf7-xN-J3u" secondAttribute="centerY" id="WOL-Ny-wfw"/>
+                        <constraint firstItem="LlO-qr-qhR" firstAttribute="top" secondItem="hf7-xN-J3u" secondAttribute="top" constant="6" id="XJs-wu-jeC"/>
+                        <constraint firstAttribute="trailing" secondItem="LlO-qr-qhR" secondAttribute="trailing" constant="6" id="h73-aY-Zao"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="hf7-xN-J3u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="JcH-1N-AnY"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hf7-xN-J3u" secondAttribute="bottom" constant="4" id="KVf-e1-6h5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hf7-xN-J3u" secondAttribute="trailing" constant="16" id="LNC-LK-EiU"/>
+                <constraint firstItem="hf7-xN-J3u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="a5M-Tp-uiC"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="date_lab" destination="LlO-qr-qhR" id="VWi-EN-1be"/>
+                <outlet property="value_lab" destination="Pqz-Vu-GT2" id="3pO-9F-s8q"/>
+            </connections>
+            <point key="canvasLocation" x="-195.41984732824426" y="-147.18309859154931"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

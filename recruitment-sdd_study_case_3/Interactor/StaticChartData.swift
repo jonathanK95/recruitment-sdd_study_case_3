@@ -9,7 +9,7 @@ import Foundation
 
 final class StaticChartData: NSObject {
     
-    var lineChartData:  LineChartData = LineChartData(dictionary: [:])!
+    var lineChartData:  TransPerMonthData = TransPerMonthData(dictionary: [:])!
     var donutChartData: [Transaction] = []
     
     init?(dictionary: [[String: Any]]) {
@@ -25,7 +25,7 @@ final class StaticChartData: NSObject {
                     }
                 } else if type == "lineChart"{
                     if let data = row["data"] as? [String : Any]{
-                        self.lineChartData = LineChartData(dictionary: data)!
+                        self.lineChartData = TransPerMonthData(dictionary: data)!
                     }
                 }
             }

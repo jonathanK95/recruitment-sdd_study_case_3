@@ -19,12 +19,17 @@
 		E36201572BBD02680075B3CF /* recruitment_sdd_study_case_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36201562BBD02680075B3CF /* recruitment_sdd_study_case_3Tests.swift */; };
 		E36201612BBD02680075B3CF /* recruitment_sdd_study_case_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36201602BBD02680075B3CF /* recruitment_sdd_study_case_3UITests.swift */; };
 		E36201632BBD02680075B3CF /* recruitment_sdd_study_case_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36201622BBD02680075B3CF /* recruitment_sdd_study_case_3UITestsLaunchTests.swift */; };
+		E3700F312BBF4887004CFCF6 /* TransSummaryTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3700F302BBF4887004CFCF6 /* TransSummaryTableCell.xib */; };
+		E3700F332BBF4899004CFCF6 /* TransDetailTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3700F322BBF4899004CFCF6 /* TransDetailTableCell.xib */; };
+		E3700F352BBF48DA004CFCF6 /* TransSummaryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3700F342BBF48DA004CFCF6 /* TransSummaryTableCell.swift */; };
+		E3700F372BBF48F1004CFCF6 /* TransDetailTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3700F362BBF48F1004CFCF6 /* TransDetailTableCell.swift */; };
+		E3700F3A2BBF495E004CFCF6 /* TransDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3700F392BBF495E004CFCF6 /* TransDetailController.swift */; };
 		E3FB51EE2BBED33D006AB334 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB51ED2BBED33D006AB334 /* Constant.swift */; };
 		E3FB51F02BBED3E4006AB334 /* StaticChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB51EF2BBED3E4006AB334 /* StaticChartData.swift */; };
 		E3FB51F22BBED413006AB334 /* TransactionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB51F12BBED413006AB334 /* TransactionData.swift */; };
 		E3FB51F42BBED4AD006AB334 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB51F32BBED4AD006AB334 /* Transaction.swift */; };
 		E3FB51F72BBEDE10006AB334 /* DATA_STATIC.json in Resources */ = {isa = PBXBuildFile; fileRef = E3FB51F62BBEDE10006AB334 /* DATA_STATIC.json */; };
-		E3FB51F92BBEE309006AB334 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB51F82BBEE309006AB334 /* LineChartData.swift */; };
+		E3FB51F92BBEE309006AB334 /* TransPerMonthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB51F82BBEE309006AB334 /* TransPerMonthData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,12 +69,17 @@
 		E362015C2BBD02680075B3CF /* recruitment-sdd_study_case_3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recruitment-sdd_study_case_3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36201602BBD02680075B3CF /* recruitment_sdd_study_case_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recruitment_sdd_study_case_3UITests.swift; sourceTree = "<group>"; };
 		E36201622BBD02680075B3CF /* recruitment_sdd_study_case_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recruitment_sdd_study_case_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3700F302BBF4887004CFCF6 /* TransSummaryTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransSummaryTableCell.xib; sourceTree = "<group>"; };
+		E3700F322BBF4899004CFCF6 /* TransDetailTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransDetailTableCell.xib; sourceTree = "<group>"; };
+		E3700F342BBF48DA004CFCF6 /* TransSummaryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransSummaryTableCell.swift; sourceTree = "<group>"; };
+		E3700F362BBF48F1004CFCF6 /* TransDetailTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransDetailTableCell.swift; sourceTree = "<group>"; };
+		E3700F392BBF495E004CFCF6 /* TransDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransDetailController.swift; sourceTree = "<group>"; };
 		E3FB51ED2BBED33D006AB334 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		E3FB51EF2BBED3E4006AB334 /* StaticChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticChartData.swift; sourceTree = "<group>"; };
 		E3FB51F12BBED413006AB334 /* TransactionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionData.swift; sourceTree = "<group>"; };
 		E3FB51F32BBED4AD006AB334 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		E3FB51F62BBEDE10006AB334 /* DATA_STATIC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DATA_STATIC.json; sourceTree = "<group>"; };
-		E3FB51F82BBEE309006AB334 /* LineChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartData.swift; sourceTree = "<group>"; };
+		E3FB51F82BBEE309006AB334 /* TransPerMonthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransPerMonthData.swift; sourceTree = "<group>"; };
 		E89B79B0AE0A2BC208D7888F /* Pods-recruitment-sdd_study_case_3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruitment-sdd_study_case_3.debug.xcconfig"; path = "Target Support Files/Pods-recruitment-sdd_study_case_3/Pods-recruitment-sdd_study_case_3.debug.xcconfig"; sourceTree = "<group>"; };
 		EC6A9EA413E8DF770230BBF8 /* Pods-recruitment-sdd_study_case_3-recruitment-sdd_study_case_3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruitment-sdd_study_case_3-recruitment-sdd_study_case_3UITests.release.xcconfig"; path = "Target Support Files/Pods-recruitment-sdd_study_case_3-recruitment-sdd_study_case_3UITests/Pods-recruitment-sdd_study_case_3-recruitment-sdd_study_case_3UITests.release.xcconfig"; sourceTree = "<group>"; };
 		F29A2570A7B1CB2DE0C89EDB /* Pods_recruitment_sdd_study_case_3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recruitment_sdd_study_case_3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +166,6 @@
 				E3FB51EA2BBECDB0006AB334 /* View */,
 				E362013F2BBD02670075B3CF /* AppDelegate.swift */,
 				E36201412BBD02670075B3CF /* SceneDelegate.swift */,
-				E36201432BBD02670075B3CF /* HomeController.swift */,
 				E3FB51ED2BBED33D006AB334 /* Constant.swift */,
 				E36201452BBD02670075B3CF /* Main.storyboard */,
 				E36201482BBD02680075B3CF /* Assets.xcassets */,
@@ -184,12 +193,32 @@
 			path = "recruitment-sdd_study_case_3UITests";
 			sourceTree = "<group>";
 		};
+		E3700F2F2BBF484C004CFCF6 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				E3700F362BBF48F1004CFCF6 /* TransDetailTableCell.swift */,
+				E3700F322BBF4899004CFCF6 /* TransDetailTableCell.xib */,
+				E3700F342BBF48DA004CFCF6 /* TransSummaryTableCell.swift */,
+				E3700F302BBF4887004CFCF6 /* TransSummaryTableCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		E3700F382BBF493C004CFCF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E36201432BBD02670075B3CF /* HomeController.swift */,
+				E3700F392BBF495E004CFCF6 /* TransDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E3FB51E92BBECDA6006AB334 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				E3FB51F32BBED4AD006AB334 /* Transaction.swift */,
 				E3FB51F12BBED413006AB334 /* TransactionData.swift */,
-				E3FB51F82BBEE309006AB334 /* LineChartData.swift */,
+				E3FB51F82BBEE309006AB334 /* TransPerMonthData.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -197,6 +226,8 @@
 		E3FB51EA2BBECDB0006AB334 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E3700F382BBF493C004CFCF6 /* Controller */,
+				E3700F2F2BBF484C004CFCF6 /* TableCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,7 +351,9 @@
 			files = (
 				E362014C2BBD02680075B3CF /* LaunchScreen.storyboard in Resources */,
 				E3FB51F72BBEDE10006AB334 /* DATA_STATIC.json in Resources */,
+				E3700F332BBF4899004CFCF6 /* TransDetailTableCell.xib in Resources */,
 				E36201492BBD02680075B3CF /* Assets.xcassets in Resources */,
+				E3700F312BBF4887004CFCF6 /* TransSummaryTableCell.xib in Resources */,
 				E36201472BBD02670075B3CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,12 +482,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3700F372BBF48F1004CFCF6 /* TransDetailTableCell.swift in Sources */,
 				E3FB51F42BBED4AD006AB334 /* Transaction.swift in Sources */,
 				E36201442BBD02670075B3CF /* HomeController.swift in Sources */,
+				E3700F352BBF48DA004CFCF6 /* TransSummaryTableCell.swift in Sources */,
+				E3700F3A2BBF495E004CFCF6 /* TransDetailController.swift in Sources */,
 				E3FB51EE2BBED33D006AB334 /* Constant.swift in Sources */,
 				E3FB51F22BBED413006AB334 /* TransactionData.swift in Sources */,
 				E36201402BBD02670075B3CF /* AppDelegate.swift in Sources */,
-				E3FB51F92BBEE309006AB334 /* LineChartData.swift in Sources */,
+				E3FB51F92BBEE309006AB334 /* TransPerMonthData.swift in Sources */,
 				E3FB51F02BBED3E4006AB334 /* StaticChartData.swift in Sources */,
 				E36201422BBD02670075B3CF /* SceneDelegate.swift in Sources */,
 			);
