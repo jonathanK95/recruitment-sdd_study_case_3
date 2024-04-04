@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeController.swift
 //  recruitment-sdd_study_case_3
 //
 //  Created by Jonathan Kristian on 03/04/24.
@@ -8,7 +8,13 @@
 import UIKit
 import DGCharts
 
-class ViewController: UIViewController {
+class HomeController: UIViewController {
+    
+    @IBOutlet weak var chart1Container: UIView!
+    
+    @IBOutlet weak var chart2Container: UIView!
+    @IBOutlet weak var tableView: UITableView!
+    
     
     let pieChartView = PieChartView()
     
@@ -22,6 +28,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupChart()
+        
+        let a = StaticChartData.loadStaticChartData()
+        
+        print(a)
+        
+//        print(a[0].)
         // Do any additional setup after loading the view.
     }
 
