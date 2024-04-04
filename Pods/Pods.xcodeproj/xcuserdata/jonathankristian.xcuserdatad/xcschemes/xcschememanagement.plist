@@ -4,26 +4,40 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-recruitment-sdd_study_case_3-recruitment-sdd_study_case_3UITests.xcscheme</key>
+		<key>DGCharts-DGCharts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-recruitment-sdd_study_case_3.xcscheme</key>
+		<key>DGCharts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-recruitment-sdd_study_case_3Tests.xcscheme</key>
+		<key>Pods-recruitment-sdd_study_case_3-recruitment-sdd_study_case_3UITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-recruitment-sdd_study_case_3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>Pods-recruitment-sdd_study_case_3Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

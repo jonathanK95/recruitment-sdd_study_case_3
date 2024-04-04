@@ -6,6 +6,7 @@ target 'recruitment-sdd_study_case_3' do
   use_frameworks!
 
   # Pods for recruitment-sdd_study_case_3
+  pod 'DGCharts'
 
   target 'recruitment-sdd_study_case_3Tests' do
     inherit! :search_paths
