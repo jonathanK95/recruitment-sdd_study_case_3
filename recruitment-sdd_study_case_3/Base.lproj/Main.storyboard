@@ -259,7 +259,9 @@
                             <constraint firstItem="VDU-Qd-ggW" firstAttribute="top" secondItem="4dF-8e-v4D" secondAttribute="bottom" id="zsa-Uu-uTu"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Detail Transaksi" id="O6W-pp-NYF"/>
+                    <navigationItem key="navigationItem" title="Detail Transaksi" id="O6W-pp-NYF">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="rm6-d0-q6h"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="count_lab" destination="OQm-Gw-Opu" id="fU8-9A-vfJ"/>
                         <outlet property="tableView" destination="VDU-Qd-ggW" id="9Yf-y1-rAy"/>

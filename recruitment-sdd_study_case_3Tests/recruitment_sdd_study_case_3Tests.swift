@@ -25,6 +25,15 @@ final class recruitment_sdd_study_case_3Tests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
+    
+    func testStaticChartDataInitializer() throws {
+        
+        let staticChartData = StaticChartData.loadStaticChartData()
+        XCTAssertEqual(staticChartData.lineChartData.transPerMonth.count, 12)
+        XCTAssertEqual(staticChartData.donutChartData.count, 4)
+        XCTAssertEqual(staticChartData.donutChartData[0].data.count, 3)
+        
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

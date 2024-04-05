@@ -29,6 +29,35 @@ final class recruitment_sdd_study_case_3UITests: XCTestCase {
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testDetailTransactionDetailController() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let mainTable = app.tables.element(boundBy: 0)
+        XCTAssertEqual(mainTable.cells.count, 4)
+        
+        mainTable.cells.element(boundBy: 0).tap()
+        XCTAssertEqual(app.staticTexts["Rp.1.000.000"].exists, true )
+        XCTAssertEqual(app.staticTexts["Rp.500.000"].exists, true )
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+        
+        mainTable.cells.element(boundBy: 1).tap()
+        XCTAssertEqual(app.staticTexts["Rp.159.000"].exists, true )
+        XCTAssertEqual(app.staticTexts["Rp.35.000"].exists, true )
+        XCTAssertEqual(app.staticTexts["Rp.1.500"].exists, true )
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+        
+        mainTable.cells.element(boundBy: 2).tap()
+        XCTAssertEqual(app.staticTexts["Rp.200.000"].exists, true )
+        XCTAssertEqual(app.staticTexts["Rp.195.000"].exists, true )
+        XCTAssertEqual(app.staticTexts["Rp.5.000.000"].exists, true )
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+        
+        mainTable.cells.element(boundBy: 3).tap()
+        XCTAssertEqual(app.staticTexts["Rp.1.000.000"].exists, true )
+        XCTAssertEqual(app.staticTexts["Rp.500.000"].exists, true )
+    }
+    
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
